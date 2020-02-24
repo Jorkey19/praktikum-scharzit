@@ -13,6 +13,7 @@ public class Zahlenraten {
         int n = rand.nextInt(100);
 // Add 1 to the result to get a number from the required range
 // (i.e., [1 - 50]).
+        System.out.println("Bitte gib eine Zahle zwischen 1 und 100 ein.");
         n += 1;
 
       do {
