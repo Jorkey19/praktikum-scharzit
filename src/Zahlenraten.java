@@ -21,11 +21,11 @@ public class Zahlenraten {
           Scanner in = new Scanner(System.in);
           a = in.nextInt();
           if (a == n) {
-              System.out.println("Richtig die Zahl ist" + a);
+              System.out.println("Richtig die Zahl ist " + a);
           } else if (a < n) {
-              System.out.println("Die Zahl ist größer als" + a);
+              System.out.println("Die Zahl ist größer als " + a);
           } else if (a > n) {
-              System.out.println("Die Zahl ist kleiner als" + a);
+              System.out.println("Die Zahl ist kleiner als " + a);
           }
       }while(a!=n);
 
